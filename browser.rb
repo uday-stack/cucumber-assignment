@@ -12,7 +12,7 @@ class Browser
 		element.send_keys "uday.agg97@gmail.com"
 		element = driver.find_element(:id, "user_password")
 		wait.until{ element.displayed? && element.enabled?}
-		element.send_keys "almirahcalender97"
+		element.send_keys "********************"
 		driver.find_element(:id, "user_submit").click
 		element = driver.find_element(:css, "a[title= 'Uday_sample_test']")
 		wait.until{ element.displayed? && element.enabled?}
